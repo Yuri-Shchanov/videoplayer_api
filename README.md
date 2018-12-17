@@ -5,10 +5,10 @@ videoplayer API
 Ruby version: 2.5.3
 
 Available routes:
-* customer/add_stream 
-* customer/current_streams
-* video/current_views
-* api/queries_count
+* POST customer/add_stream 
+* GET customer/current_streams
+* GET video/current_views
+* GET api/queries_count
 
 Default Redis settings (it can be changed in application.rb)
 * host: localhost

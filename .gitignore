@@ -12,6 +12,7 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+!/tmp/caching-dev.txt
 
 
 .byebug_history
