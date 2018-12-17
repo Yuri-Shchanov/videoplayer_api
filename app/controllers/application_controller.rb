@@ -1,5 +1,5 @@
 class ApplicationController < ActionController::API
-  before_action :incriment_queries_counter
+  after_action :incriment_queries_counter
 
   protected
   def incriment_queries_counter

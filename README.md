@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+videoplayer API
 
-Things you may want to cover:
+Ruby version: 2.5.3
 
-* Ruby version
+Available routes:
+* customer/add_stream 
+* customer/current_streams
+* video/current_views
+* api/queries_count
 
-* System dependencies
+Default Redis settings (it can be changed in application.rb)
+* host: localhost
+* port: 6379
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Available cache stores
+* memory_store
+* redis_cache_store

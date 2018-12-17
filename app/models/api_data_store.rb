@@ -13,6 +13,6 @@ class ApiDataStore < DataStore
     filtered_keys = keys.select do |key|
       key.to_i > 1.minute.seconds.ago.to_i
     end
-    @store.read_multi(filtered_keys).values.sum
+    @store.read_multi(filtered_keys).values.map(&:to_i).sum
   end
 end
