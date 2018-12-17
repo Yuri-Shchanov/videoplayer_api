@@ -1,3 +1,6 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  post "customer/add_stream"
+  get "customer/current_streams"
+  get "video/current_views"
+  get "api/queries_count"
 end
