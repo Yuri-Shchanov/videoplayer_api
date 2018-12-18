@@ -10,7 +10,7 @@ Available routes:
 * GET video/current_views
 * GET api/queries_count
 
-Default Redis settings (it can be changed in application.rb)
+Default Redis settings (it can be changed in config/#{environment}.rb)
 * host: localhost
 * port: 6379
 
